@@ -7,11 +7,11 @@
 
 </p>
 
-[中文文档](./README.zh.md)
+[英文文档](./README.md)
 
 ## Introduce
 
-Provides commonly used hooks and utility functions for React.
+为 React 提供常用的钩子和实用函数。
 
 ## Usage
 
@@ -21,11 +21,11 @@ npm i @x.render/render-app -S
 
 ## Hooks
 
-Many commonly used hooks are provided in render-app
+render-app 中提供了很多常用的 hooks
 
 ### usePageShow
 
-usePageShow is used to execute related callback functions when the page is visible and invisible.
+usePageShow 用于在页面可见和不可见时执行相关回调函数。
 
 ```javascript
 import { usePageShow } from "@x.render/render-app";
@@ -44,4 +44,4 @@ const Demo = () => {
 export default Demo;
 ```
 
-the parameters executed by usePageShow are not required.
+usePageShow 执行的参数不是必需的。
